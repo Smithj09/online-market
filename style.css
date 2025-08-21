@@ -48,6 +48,43 @@ h1{
     font-size: 16px;
     font-weight: 300;
 }
+
+.search-bar{
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
+    height: 26px;
+    border: solid 1px red;  
+    padding: 0 10px;
+    border-radius: 15px;
+
+}
+
+.search-bar input{
+    border: none;
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width:900px) {
      .items-list ul{
         display:none;
