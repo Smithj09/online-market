@@ -18,7 +18,7 @@ nav{
     align-items: center;
     background: #f83e4b;
     height:50px;
-    /* gap: 10px; */
+    gap: 5px;
 
 }
 .items-list{
@@ -33,7 +33,7 @@ h1{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    gap: 25px;
+    gap: 30px;
     list-style: none;
     color: red;
 }
@@ -46,6 +46,12 @@ h1{
     color: red;
     font-size: 16px;
     font-weight: 300;
+    border-radius: 5px;
+  
+}
+.items-list ul li a:hover{
+    background: red;
+    color: white;
 }
 
 .search-bar{
