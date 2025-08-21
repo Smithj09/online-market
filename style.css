@@ -16,7 +16,7 @@ nav{
     color: white;
 }
 h1{
-    font-size: 20px;
+    font-size: 23px;
 }
 
 .items-list ul{
@@ -24,12 +24,16 @@ h1{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    /* gap: 20px; */
+    gap: 25px;
     list-style: none;
 }
 
-.items-list ul li{
+
+.items-list ul li a{
     text-decoration: none;
-    outline: black;
-    padding:10px;
+    outline: solid 1px #ccc; 
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+    /* gap: 20px; */
 }
