@@ -80,24 +80,6 @@ h1{ font-family: 'Roboto', sans-serif;
   font-size: 14px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (max-width:900px) {
      .items-list ul{
         display:none;
@@ -123,4 +105,13 @@ h1{ font-family: 'Roboto', sans-serif;
     width: 230px;
    }
     
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
