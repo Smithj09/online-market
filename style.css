@@ -17,7 +17,7 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #f83e4b;
+    background:red;
     height:50px;
     gap: 5px;
 
