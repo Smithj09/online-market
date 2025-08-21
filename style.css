@@ -6,7 +6,7 @@ margin: 0;
 nav{
     width: 100%;
     height: auto;
-    background-color:#ffcbcb;
+    background-color:#f83e4b;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,13 +15,16 @@ nav{
     padding: 10px;
     color: white;
 }
+h1{
+    font-size: 20px;
+}
 
 .items-list ul{
     display:flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    gap: 20px;
+    /* gap: 20px; */
     list-style: none;
 }
 
