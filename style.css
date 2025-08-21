@@ -46,20 +46,24 @@ h1{
     padding: 5px;
     color: red;
     font-size: 16px;
+    font-weight: 300;
 }
-
-@media screen and (max-width:768px) {
-    .items-list ul{
+@media screen and (max-width:900px) {
+     .items-list ul{
         display:none;
     }
+    
+}
+@media screen and (max-width:768px) {
+   
     .welcome-part{
         flex-direction: column;
-        height: 60px;
+        height: 55px;
         border-radius: 10px;
         padding: 10px 0;
     }
     h1{
-        font-size: 16px;
+        font-size: 18px;
     }
     
 }
