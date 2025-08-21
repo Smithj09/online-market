@@ -5,19 +5,28 @@ margin: 0;
 
 nav{
     width: 100%;
-    height: auto;
-    background-color:#f83e4b;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    height: 200px;
+}
+
+.welcome-part{
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    background: #f83e4b;
+    height:50px;
     gap: 10px;
-    padding: 10px 0;
-    color: white;
-    border-radius: 10px;
+
+}
+.items-list{
+    margin-top: 20px;
 }
 h1{
-    font-size: 23px;
+    font-size: 20px;
 }
 
 .items-list ul{
@@ -27,13 +36,27 @@ h1{
     align-items: center;
     gap: 25px;
     list-style: none;
+    color: red;
 }
 
 
 .items-list ul li a{
     text-decoration: none;
-    outline: solid 1px #ccc; 
+    outline: solid 1px red; 
     padding: 5px;
-    color: white;
-    font-size: 20px;
+    color: red;
+    font-size: 16px;
+}
+
+@media screen and (max-width:768px) {
+    .items-list ul{
+        display:none;
+    }
+    .welcome-part{
+        flex-direction: column;
+        height: 60px;
+        border-radius: 10px;
+        padding: 10px 0;
+    }
+    
 }
