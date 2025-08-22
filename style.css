@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    color: black;
+    background: white;
+}
+
+
+
+/* -----------------------nav bar styling----------------------- */
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(20px);
+    border-bottom: solid 1px #e0e0e0;
+    z-index: 1000;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  1rem 2rem;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.logo{
+    font-size: 1.5rem;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    color: #000;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 2.5rem;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: #1a1a1a;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: color
+     0.3s ease;
+     position: relative;
+}
+
+.nav-links a:hover{
+    color: #007bff;
+}
+
+
+/* To know what this can do */
+.nav-links a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #007bff;
+    bottom: -5px;
+    left: 0;
+    transition: width 0.3s ease;
+}
+
+.nav-links a:hover::after {
+    width: 100%;
+}
+
+.nav-actions{
+    display: flex;
+    align-items: centerr;
+    gap: 1rem;
+}
+
+.cart-btn{
+    position:relative;
+    background: #e9ecef;
+    border: solid 2px ;
+    padding: 0.8rem 1.2rem;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0..3 ease;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.cart-btn:hover{
+    background: white;
+    border-color: #007bff;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12 px rgba(0,122, 255, 0.15);
+}
+.cart-count{
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    min-width: 20px;
+    height: 20px;
+    font-size: 0.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+  
