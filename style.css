@@ -198,13 +198,17 @@ body{
 
 
 /* ----------------------------Responssiveness------------------ */
-@media screen and (max-width: 768px) {
-    .nav {
-        padding: 0.2rem 1rem;
-    }
+@media screen and (max-width: 935px) {
+   
     .nav-links{
         display: none;
     }
-    
+      
+}
+
+@media screen and (max-width: 768px) {
+    .nav {
+        padding: 0.4rem 1rem;
+    }
     
 }
