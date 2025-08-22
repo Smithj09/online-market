@@ -24,6 +24,16 @@ body{
     z-index: 1000;
 }
 
+.announcement-bar{
+    width: 100%;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.2rem 0;
+    font-size: 1.2rem;
+}
 .nav{
     display: flex;
     justify-content: space-between;
