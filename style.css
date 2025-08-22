@@ -200,7 +200,7 @@ body{
 /* ----------------------------Responssiveness------------------ */
 @media screen and (max-width: 768px) {
     .nav {
-        padding: 1rem;
+        padding: 0.2rem 1rem;
     }
     .nav-links{
         display: none;
