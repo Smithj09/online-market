@@ -42,6 +42,7 @@ body{
 .search-input{
     outline: none;
     border: none;
+    width: 5rem;
     
 }
 
@@ -262,6 +263,9 @@ body{
 @media screen and (max-width: 768px) {
     .nav {
         padding: 0.4rem 1rem;
+    }
+    .search-bar{
+        width: 6rem;
     }
     
 }
