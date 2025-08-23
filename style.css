@@ -177,7 +177,7 @@ body{
             text-align: center;
             padding: 0.2rem 1rem;
             text-decoration: none;
-            gap: 2rem;
+            font-weight: 700;
         }
 
         div.scrollmenu a:hover {
