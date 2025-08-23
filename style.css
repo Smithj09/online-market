@@ -158,13 +158,11 @@ body{
 
 
 /* --------------Hero section---------------- */
-
-
-/* -----------Bread Crumbs--------------- */
 #hero-section{
     width: 100%;
     height: 100vh;
 }
+/* -----------Horizontal Schroll Menu--------------- */
    div.scrollmenu {
     margin-top: 2rem;
             /* background-color: #333; */
@@ -175,9 +173,11 @@ body{
         div.scrollmenu a {
             display: inline-block;
             color: black;
+            background-color: #e9ecef;
             text-align: center;
-            padding: 14px;
+            padding: 0.2rem 1rem;
             text-decoration: none;
+            gap: 2rem;
         }
 
         div.scrollmenu a:hover {
