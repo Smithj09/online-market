@@ -30,14 +30,24 @@ body{
     background-color:#bc2525;
     color: white;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 0.2rem 0;
+    padding: 0.2rem 1rem;
     font-size: 1.2rem;
 
 }.announcement-bar p{
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 1.3rem;
+}
+
+.search-bar{
+    width: fit-content;
+    background-color: white;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    max-height: 2.5rem;
+    padding: 0.2rem 0.5rem;
 }
 .search-input{
     outline: none;
@@ -52,14 +62,7 @@ body{
 }
 
 
-.search-bar{
-    width: fit-content;
-    background-color: white;
-    padding: 0 1rem;
-    display: flex;
-    max-height: 2.5rem;
-    padding: 0.2rem 0.5rem;
-}
+
 
 .nav{
     display: flex;
@@ -265,7 +268,14 @@ body{
         padding: 0.4rem 1rem;
     }
     .search-bar{
-        width: 7rem;
+        width: 8rem;
+    }
+    
+}
+
+@media screen and (min-width:900px) {
+    .search-bar{
+        width: 12rem;
     }
     
 }
