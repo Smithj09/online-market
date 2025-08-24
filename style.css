@@ -177,8 +177,6 @@ body{
 
         div.scrollmenu a {
             display: inline-block;
-            color: black;
-            /* background-color: #e9ecef; */
             text-align: center;
             padding: 0.2rem 1rem;
             text-decoration: none;
@@ -186,9 +184,20 @@ body{
         }
 
         div.scrollmenu a:hover {
-            background-color: #777;
+            background-color: #3575D3;
+            color: white;
+            border-radius: 5px;
         }
 
+        .first-product-btn {
+            background-color: #3575D3;
+            color: white;
+            border-radius: 5px;
+        }
+
+        .scrollmenu a:not(:first-child) {
+  color: #3575D3; /* example style */
+}
 
 
 
