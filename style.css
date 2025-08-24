@@ -27,7 +27,7 @@ body{
 
 .announcement-bar{
     width: 100%;
-    color: #207cca;
+    color: #3575D3;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -42,7 +42,7 @@ body{
 .search-bar{
     width: fit-content;
     /* background-color: #207cca; */
-    border: 2px solid #207cca;
+    border: 2px solid #3575D3;
     padding: 0 1rem;
     display: flex;
     justify-content: space-between;
@@ -58,7 +58,7 @@ body{
 }
 
 .search-bar i{
-    color:#207cca;
+    color:#3575D3;
     font-size: 1rem;
 }
 
@@ -73,7 +73,9 @@ body{
     padding:  0.5rem 2rem;
     /* max-width: 1400px; */
     /* margin: 0 auto; */
-    background-color: #207cca;
+    background-color: #3575D3;
+    border-bottom-left-radius: 5px;  /* round bottom-left corner */
+    border-bottom-right-radius: 5px
 }
 
 .logo{
