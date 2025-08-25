@@ -216,21 +216,27 @@ body{
 .shop-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 1rem;
+  gap: 0.8rem;
   padding: 1rem;
 }
 
 .product-box {
   /* width:100px; */
+  display: flex;
+  flex-direction: column;
   background: #fff;
   border: 1px solid #ddd;
   border-radius: 8px;
   transition: 0.3s;
-}
 
+}
+.product-title{
+    font-size: 1rem;
+    font-weight: 700;
+}
 .product-box img {
   max-width: 100%;
-  border-radius: 6px;
+  border-radius: 6px; 
 }
 
 .product-box:hover {
