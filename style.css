@@ -141,6 +141,9 @@ body{
     align-items: center;
     gap: 0.1rem;
 }
+.cart-btn i{
+    color: #002957;
+}
 
 .cart-btn:hover{
     background: white;
@@ -237,6 +240,7 @@ body{
 .product-box img {
   max-width: 100%;
   border-radius: 6px; 
+  min-height: fit-content;
 }
 
 .product-box:hover {
@@ -256,7 +260,7 @@ body{
     border: 2px solid #3575D3;
     background-color: white;
     color: #3575D3;
-    font-weight: 600;
+    font-weight: 800;
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -271,12 +275,16 @@ body{
 footer{
     width: 100%;
     height: auto;
+    background-color: #3575D3;
 }
 footer .footer-1{
     width: 100%;
     background-color: #002957;
     min-height: 40vh;
     color: white;
+    display: flex;
+    border-bottom-left-radius: 10px;  /* round bottom-left corner */
+    border-bottom-right-radius: 10px;
 }
 footer .footer-2{
     width: 100%;
