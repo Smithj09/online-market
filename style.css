@@ -165,7 +165,7 @@ body{
 /* --------------Hero section---------------- */
 #hero-section{
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
 }
 /* -----------Horizontal Schroll Menu--------------- */
    div.scrollmenu {
@@ -200,7 +200,47 @@ body{
 }
 
 
+/* ------------------Shop container------------------ */
 
+.shop-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* default: 2 per row (mobile) */
+  gap: 1.5rem;
+  padding: 1rem;
+}
+
+/* Medium screens (tablet) */
+@media (min-width: 768px) {
+  .shop-container {
+    grid-template-columns: repeat(3, 1fr); /* 3 per row */
+  }
+}
+
+/* Large screens (desktop) */
+@media (min-width: 1200px) {
+  .shop-container {
+    grid-template-columns: repeat(6, 1fr); /* 6 per row */
+  }
+}
+
+.product-box {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.product-box img {
+  max-width: 100%;
+  border-radius: 6px;
+}
+
+.product-box:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transform: translateY(-4px);
+}
 
 
 
