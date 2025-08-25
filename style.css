@@ -261,13 +261,32 @@ body{
     cursor: pointer;
     transition: all 0.3s ease;
 }
-footer{
-    width: 100%;
-    background-color: #002957;
-    min-height: 30vh;
+.more-product button:hover{
+    background-color: #3575D3;
     color: white;
 }
 
+
+
+footer{
+    width: 100%;
+    height: auto;
+}
+footer .footer-1{
+    width: 100%;
+    background-color: #002957;
+    min-height: 40vh;
+    color: white;
+}
+footer .footer-2{
+    width: 100%;
+    background-color: #3575D3;
+    min-height: 10vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
