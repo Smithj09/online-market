@@ -251,6 +251,13 @@ body{
   }
 }
 
+/* Cap at 6 per row on big desktops */
+@media (min-width: 1200px) {
+  .shop-container {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
 
 
 
