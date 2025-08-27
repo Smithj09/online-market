@@ -340,12 +340,12 @@ footer .footer-2{
 }
 .product-preview .preview{
     display: none;
-    padding: 2rem;
+    padding: 0.5rem;
     text-align: center;
     background-color: #fff;
     position: relative;
     margin: 2rem;
-    width:40rem ;
+    width:22rem ;
 }
 
 .product-preview .preview.active {
@@ -355,6 +355,7 @@ footer .footer-2{
 }
 
 .product-preview .preview.active img{
+    margin-top: 1rem;
     width: 20rem;
     height: auto;
 
@@ -363,12 +364,19 @@ footer .footer-2{
 
 
 .product-preview .preview .fa-times{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     top: 1rem ;
     right: 1.5rem;
     cursor: pointer;
-    color: #444;
+    color: #fff;
     font-size: 1.5rem;
+    background-color:#bc2525;
+    width:2rem;
+    height: 2rem;
+    border-radius: 1rem;
 }
 .product-preview .preview .fa-times:hover{
     transform:rotate(90deg);
