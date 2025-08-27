@@ -400,9 +400,6 @@ footer .footer-2{
 
 
 @media screen and  (max-width:500px) {
-    .product-preview{
-        /* margin: 0 1rem; */
-    }
     .preview{
         margin: 0 1rem;
     }
