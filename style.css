@@ -268,6 +268,7 @@ body{
 
 }
 .more-product{
+    /* font-weight: 800; */
     display: flex;
     margin:1rem 0;
     align-items: center;
@@ -284,6 +285,7 @@ body{
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease;
+    font-weight: 800;
 }
 .more-product button:hover{
     background-color: #3575D3;
