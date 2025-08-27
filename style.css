@@ -258,8 +258,10 @@ body{
     width: 2.3rem;
     height: 2.3rem;
     border-radius: 1.2rem;
-    background-color: #bc2525;
-   margin-top: auto;
+    /* background-color: #bc2525; */
+    background-color: #002957;
+    margin-top: auto;
+    margin-left: 0.2rem;
 
 }
 .more-product{
