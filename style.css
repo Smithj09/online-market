@@ -355,7 +355,7 @@ footer .footer-2{
 }
 
 .product-preview .preview.active img{
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
     width: 20rem;
     height: auto;
 
