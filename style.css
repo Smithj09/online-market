@@ -415,7 +415,11 @@ li{
     border-radius: 5px;
     border: solid 1px white;
 }
-
+.how-to-buy button:hover {
+    background-color: #285bb5;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
 
 footer .footer-2{
     width: 100%;
