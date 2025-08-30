@@ -365,16 +365,6 @@ body{
     padding-right: 0.5rem;
 }
 
-.how-to-buy button{
-    background-color: #3575D3;
-    padding: 0.5rem 0.6rem;
-    margin: 0.9rem 0rem;
-    color: white;
-    font-size: 0.9rem;
-    border-radius: 5px;
-    border: solid 1px white;
-}
-
 
 
 
@@ -416,6 +406,16 @@ footer .footer-1{
 li{
     list-style: none;
 }
+.how-to-buy button{
+    background-color: #3575D3;
+    padding: 0.5rem 0.6rem;
+    margin: 0.9rem 0rem;
+    color: white;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    border: solid 1px white;
+}
+
 
 footer .footer-2{
     width: 100%;
@@ -445,6 +445,7 @@ footer .footer-2{
     /* text-align: left; */
     display: flex;
     justify-content: flex-end;
+    gap: 0.5rem;
 }
 .social-media i{
     color: white;
