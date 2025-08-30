@@ -403,6 +403,9 @@ footer .footer-1{
 .product a, .support a{
     color: white;
 }
+li{
+    list-style: none;
+}
 
 footer .footer-2{
     width: 100%;
