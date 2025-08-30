@@ -365,7 +365,15 @@ body{
     padding-right: 0.5rem;
 }
 
-
+.how-to-buy button{
+    background-color: #007bff;
+    padding: 0.5rem 0.6rem;
+    margin: 0.9rem 0rem;
+    color: white;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    border: solid 1px white;
+}
 
 
 
@@ -388,6 +396,7 @@ footer .footer-1{
     border-bottom-left-radius: 10px;  
     border-bottom-right-radius: 10px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
