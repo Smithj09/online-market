@@ -405,6 +405,7 @@ footer .footer-1{
 }
 li{
     list-style: none;
+    font-weight: 100;
 }
 .how-to-buy button{
     background-color: #3575D3;
