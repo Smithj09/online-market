@@ -406,6 +406,7 @@ footer .footer-2{
     display: flex;
     justify-content: flex-start;
     width: 45%;
+    gap: 0.9rem;
 }
 .right-side-footer{
     width: 45%;
@@ -433,18 +434,18 @@ footer .footer-2{
 
 .left-side-footer{
     width: 100%;
-    background-color: #002957;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 .right-side-footer{
+    width: 100%;
     justify-content: center;
-    background-color: #002957;
+    align-items: center;
 }
 
 .social-media i{
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin-bottom: 1.2rem;
     
 }
