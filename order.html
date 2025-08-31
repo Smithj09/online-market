@@ -14,32 +14,81 @@
 
    <style>
 
-    html{
-        margin: 0;
-        padding: 0;
-    }
-    header{
-        /* width: 100%; */
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    nav{
+        width: 100%;
         background-color: #3575D3;
         color:white;
-        font-size: 1.3rem;
         display: flex;
         justify-content: center;
         align-items: center;
         padding: 0.6rem 0.6rem;
         border-radius: 10px;
         font-weight: 300;
+        position: fixed;
+        top: 0;
+        z-index: ;
     }
+    header{
+        margin-bottom: 1rem;
+    }
+    h1{
+        font-size: 1.3rem;
+    }
+
+    h2{
+        font-size: 1.2rem;
+    }
+    section{
+        width: 100%;
+        min-height: 100vh;
+        /* display: flex; */
+        /* margin: auto; */
+        /* background-color: red; */
+    }
+     section .title{
+        width: 100%;
+        padding: 0.3rem 0;
+        /* background-color: blue; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: inherit;
+        margin-top: 2.9rem;
+    }
+    .bread-crumbs{
+        margin-top: 1rem;
+        background-color:;
+    }
+
+    .english-speaker{
+        width: 80%;
+        margin: auto;
+    }
+    p{
+        text-align: justify;
+    }
+ 
    </style> 
 </head>
 <body>
-    <header>Order easily on ShenGli</h1>
+    <header>
+        <nav>
+            <h1>Order easily on ShenGli</h1>
+        </nav>
     </header>
     <main>
         <section id="Payment-section">
-            <h2>
+            <div class="title">
+                <h2>
                 Please choose your Language.
-            </h2>
+               </h2>
+            </div>
+            
 
             <div class="bread-crumbs">
 
