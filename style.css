@@ -231,7 +231,8 @@ body{
   border: 1px solid #ddd;
   border-radius: 8px;
   transition: 0.3s;
-  gap: 0.5rem;
+  /* gap: 0.5rem; */
+  padding-bottom: 0.5rem;
 
 }
 .product-title{
@@ -326,7 +327,6 @@ body{
 }
 
 .product-preview .preview.active img{
-    margin-top: 0.8rem;
     width: 21rem;
     height: auto;
 
