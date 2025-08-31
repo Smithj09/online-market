@@ -172,7 +172,7 @@ body{
 }
 /* -----------Horizontal Schroll Menu--------------- */
    div.scrollmenu {
-    margin-top: 2.5rem;
+    margin-top: 1rem;
            
             overflow: auto;
             white-space: nowrap;
@@ -210,7 +210,7 @@ body{
     display: flex;
     text-align: center;
     justify-content: center;
-    margin: 0.5rem 0 0.5rem 0;
+    /* margin: 0rem 0 0rem 0; */
     font-size: 1rem;
     font-weight: 700;
     color: #002957;
