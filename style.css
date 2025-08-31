@@ -339,12 +339,12 @@ body{
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 1rem ;
-    right: 1.5rem;
+    top: 0.2rem ;
+    right: 0.2rem;
     cursor: pointer;
     color: #fff;
-    font-size: 1.5rem;
-    background-color:#bc2525;
+    font-size: 1rem;
+    background-color:#002957;
     width:2rem;
     height: 2rem;
     border-radius: 1rem;
