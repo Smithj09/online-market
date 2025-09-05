@@ -77,12 +77,20 @@ body{
     border-bottom-left-radius: 5px;  /* round bottom-left corner */
     border-bottom-right-radius: 5px
 }
-
+.logo-container{
+    width: fit-content;
+    display: flex;
+    color: white;
+    font-size: 1.2rem;
+    flex-direction: row;
+    gap: 0.3rem;
+    align-items: center;
+    font-weight: 600;
+}
 .logo{
     font-size: 1.5rem;
     font-weight: 800;
     letter-spacing: -0.02em;
-    color: white;
     width: 40px; 
     height: 40px; 
     border-radius: 20px; 
@@ -90,7 +98,10 @@ body{
     display: flex; 
     justify-content: center; 
     align-items: center; 
-    background-color: #bc2525;
+    background-color: white;
+}
+.logo i{
+    color: #002957;
 }
 
 .nav-links {
